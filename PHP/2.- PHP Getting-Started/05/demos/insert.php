@@ -26,8 +26,8 @@
       // add database code here
       $db = new mysqli(
         'localhost',
-        'user',
-        'password',
+        'root',
+        '',
         'php');
       $sql = sprintf(
         "INSERT INTO users (name, gender, color) VALUES (
